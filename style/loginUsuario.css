@@ -1,0 +1,108 @@
+body{
+    background-color: #EDEDED;
+    font-size: 12pt;
+}
+
+.header{
+    height:4em;
+    width: cover;
+    background:linear-gradient(to left,#ffbd2c,#ffa500,#f19900,#e38e00,#d58300);
+    padding-top: 1em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3) ;
+    
+   
+}
+.navigationHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3em;
+    
+}
+.itemsHeader a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-top: 1%;
+}
+.logo a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 2em;
+    text-decoration: none;
+    align-items: center;
+    position: absolute;
+    align-items: center;
+    margin-top: -0.5em;
+}
+
+
+.cadastro{
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-image:linear-gradient(to left,#ffc93b,#ffbd2c,#ffb11b,#ffa500,#f19900) ;
+    width: 30em;
+    height: 35em;
+    border-radius: 10px;
+   
+
+}
+
+.login{
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-image:linear-gradient(to left,#ffc93b,#ffbd2c,#ffb11b,#ffa500,#f19900) ;
+    width: 30em;
+    height: 35em;
+    border-radius: 10px;
+  
+
+}
+#text1{
+    text-align: center;
+    padding-top: 1em;
+}
+.inpts{
+    text-align: center;
+    height: 3em;
+}
+#inptLogin{
+    height: 3em;
+    width: 24em;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    margin-top: 5%;
+    
+}
+.loginCad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#buttonLoginCad{
+    margin-top: 30%;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    height: 3em;
+    width: 12em;
+}
+
+
+
+#buttonLoginCad:hover{
+    transform:scale(1.2);
+    transition: all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    color: rgb(31, 165, 255);  
+}
+
+:not(:hover){
+    transform:scale(1);
+    transition: all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    
+}
